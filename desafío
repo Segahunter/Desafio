@@ -1,0 +1,20 @@
+# Crea el archivo README.md con el título del proyecto
+echo "# Desafio" >> README.md
+
+# Inicializa un nuevo repositorio Git
+git init
+
+# Agrega el archivo README.md al índice
+git add README.md
+
+# Realiza el primer commit
+git commit -m "Primer commit"
+
+# Cambia el nombre de la rama principal a main
+git branch -M main
+
+# Agrega la URL del repositorio remoto en GitHub
+git remote add origin https://github.com/Segahunter/Desafio.git
+
+# Sube la rama main al repositorio remoto
+git push -u origin main
